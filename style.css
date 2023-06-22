@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin-left: 60px;
+}
+
+img {
+    display: none;
+}
+
+img:first-child {
+    display: block;
+}
+
+button {
+    width: 35px;
+    background-color: #bfbff5;
+}
+
+.prevBtn {
+    display: none;
+    position: absolute;
+    left: 25px;
+    height: 337px;
+}
